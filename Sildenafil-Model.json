@@ -108,12 +108,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -130,12 +130,12 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -150,7 +150,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -480,7 +480,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
@@ -1123,17 +1123,17 @@
           "Percentile": 0.0,
           "DistributionMetaData": [
             {
-              "Mean": 1E-14,
+              "Mean": 1e-14,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 1.915059E-05,
+              "Mean": 1.915059e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 5.486795E-05,
+              "Mean": 5.486795e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
@@ -1252,17 +1252,17 @@
           "Points": [
             {
               "X": 0.0,
-              "Y": 1E-14,
+              "Y": 1e-14,
               "RestartSolver": false
             },
             {
               "X": 0.08333334,
-              "Y": 1.915059E-05,
+              "Y": 1.915059e-05,
               "RestartSolver": false
             },
             {
               "X": 0.1666667,
-              "Y": 5.486795E-05,
+              "Y": 5.486795e-05,
               "RestartSolver": false
             },
             {
@@ -1545,7 +1545,7 @@
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05,
+          "Value": 4.5940341362e-05,
           "ValueOrigin": {}
         },
         {
@@ -1725,7 +1725,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06,
+          "Value": 4.4025157233e-06,
           "ValueOrigin": {}
         },
         {
@@ -1740,7 +1740,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05,
+          "Value": 2.4947589099e-05,
           "ValueOrigin": {}
         }
       ],
@@ -3488,7 +3488,80 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.0,
+              "Max": 1000.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IV 50mg|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Nichols 2002 - 50mg-IV-Infusion - Sildenafil - IV - 50 mg - Plasma - agg. (n=12)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Nichols 2002 - 50mg-IV-Infusion - Sildenafil - IV - 50 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Nichols 2002 - 50mg-IV-Infusion - Sildenafil - IV - 50 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nIV 50mg\n2023-03-24 17:36"
+        }
+      ]
     },
     {
       "Name": "IV 25mg",
@@ -3851,7 +3924,102 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 15.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.0,
+              "Max": 1000.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IV 25mg|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Muirhead 2002b - 25mg-IV-Infusion-Subject 3 - Sildenafil - IV - 25 mg - Plasma - indiv.-Sildenafil-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Muirhead 2002b - 25mg-IV-Infusion-Subject 3 - Sildenafil - IV - 25 mg - Plasma - indiv.|Time",
+              "Y": "Muirhead 2002b - 25mg-IV-Infusion-Subject 3 - Sildenafil - IV - 25 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|Individual",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Muirhead 2002b - 25mg-IV-Infusion-Subject 2 - Sildenafil - IV - 25 mg - Plasma - indiv.-Sildenafil-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Muirhead 2002b - 25mg-IV-Infusion-Subject 2 - Sildenafil - IV - 25 mg - Plasma - indiv.|Time",
+              "Y": "Muirhead 2002b - 25mg-IV-Infusion-Subject 2 - Sildenafil - IV - 25 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|Individual",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Muirhead 2002b - 25mg-IV-Infusion-Subject 1 - Sildenafil - IV - 25 mg - Plasma - indiv.-Sildenafil-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Muirhead 2002b - 25mg-IV-Infusion-Subject 1 - Sildenafil - IV - 25 mg - Plasma - indiv.|Time",
+              "Y": "Muirhead 2002b - 25mg-IV-Infusion-Subject 1 - Sildenafil - IV - 25 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|Individual",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nIV 25mg\n2023-03-24 17:36"
+        }
+      ]
     },
     {
       "Name": "Oral solution",
@@ -4208,7 +4376,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Oral solution|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Walker 1999 - 50mg-PO-Solution - Sildenafil - PO - 50 mg - Plasma - agg. (n=3)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Walker 1999 - 50mg-PO-Solution - Sildenafil - PO - 50 mg - Plasma - agg. (n=3)|Time",
+              "Y": "Walker 1999 - 50mg-PO-Solution - Sildenafil - PO - 50 mg - Plasma - agg. (n=3)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nOral solution\n2023-03-24 17:37"
+        }
+      ]
     },
     {
       "Name": "Tablet SD 100mg fasted",
@@ -4565,7 +4802,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Tablet SD 100mg fasted|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 11
+              }
+            },
+            {
+              "Name": "Nichols 2002 - 100mg-PO-Tablet-Fasted - Sildenafil - PO - 100 mg - Plasma - agg. (n=34)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Nichols 2002 - 100mg-PO-Tablet-Fasted - Sildenafil - PO - 100 mg - Plasma - agg. (n=34)|Time",
+              "Y": "Nichols 2002 - 100mg-PO-Tablet-Fasted - Sildenafil - PO - 100 mg - Plasma - agg. (n=34)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nTablet SD 100mg fasted\n2023-03-24 17:36"
+        }
+      ]
     },
     {
       "Name": "Tablet SD 20mg fasted",
@@ -4922,7 +5228,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Tablet SD 20mg fasted|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 11
+              }
+            },
+            {
+              "Name": "Spence 2008 - 20mg-PO-Tablet - Sildenafil - PO - 20 mg - Plasma - agg. (n=19)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Spence 2008 - 20mg-PO-Tablet - Sildenafil - PO - 20 mg - Plasma - agg. (n=19)|Time",
+              "Y": "Spence 2008 - 20mg-PO-Tablet - Sildenafil - PO - 20 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nTablet SD 20mg fasted\n2023-03-24 17:36"
+        }
+      ]
     },
     {
       "Name": "Tablet SD 25mg fasted",
@@ -5285,7 +5660,87 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Tablet SD 25mg fasted|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 11
+              }
+            },
+            {
+              "Name": "Lee 2021 - Itraconazole DDI, control group - Sildenafil - PO - 25 mg - Plasma - agg. (n=16)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Lee 2021 - Itraconazole DDI, control group - Sildenafil - PO - 25 mg - Plasma - agg. (n=16)|Time",
+              "Y": "Lee 2021 - Itraconazole DDI, control group - Sildenafil - PO - 25 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 13,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Lee 2021 - Clarithromycin DDI, control group - Sildenafil - PO - 25 mg - Plasma - agg. (n=15)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Lee 2021 - Clarithromycin DDI, control group - Sildenafil - PO - 25 mg - Plasma - agg. (n=15)|Time",
+              "Y": "Lee 2021 - Clarithromycin DDI, control group - Sildenafil - PO - 25 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nTablet SD 25mg fasted\n2023-04-25 18:42"
+        }
+      ]
     },
     {
       "Name": "Tablet SD 50mg fasted",
@@ -5666,7 +6121,120 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Tablet SD 50mg fasted|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 11
+              }
+            },
+            {
+              "Name": "Gillen 2017 - Panel 1-50mg-PO-Tablet-Fast - Sildenafil - PO - 50 mg - Plasma - agg. (n=12)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Gillen 2017 - Panel 1-50mg-PO-Tablet-Fast - Sildenafil - PO - 50 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Gillen 2017 - Panel 1-50mg-PO-Tablet-Fast - Sildenafil - PO - 50 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 18,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Abdelkawy 2016 - 50mg-PO-Tablet - Sildenafil - PO - 50 mg - Plasma - agg. (n=9)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Abdelkawy 2016 - 50mg-PO-Tablet - Sildenafil - PO - 50 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Abdelkawy 2016 - 50mg-PO-Tablet - Sildenafil - PO - 50 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 17,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Jetter 2002 - 50mg-PO-Tablet - Sildenafil - PO - 50 mg - Plasma - agg. (n=24)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Jetter 2002 - 50mg-PO-Tablet - Sildenafil - PO - 50 mg - Plasma - agg. (n=24)|Time",
+              "Y": "Jetter 2002 - 50mg-PO-Tablet - Sildenafil - PO - 50 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 19,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Murtadha 2021 - 50mg-PO-Tablet-non smoker - Sildenafil - PO - 50 mg - Plasma - agg. (n=12)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Murtadha 2021 - 50mg-PO-Tablet-non smoker - Sildenafil - PO - 50 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Murtadha 2021 - 50mg-PO-Tablet-non smoker - Sildenafil - PO - 50 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 20,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Wilner 2002 - 50mg-PO-Tablet-Study I - Sildenafil - PO - 50 mg - Plasma - agg. (n=20)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Wilner 2002 - 50mg-PO-Tablet-Study I - Sildenafil - PO - 50 mg - Plasma - agg. (n=20)|Time",
+              "Y": "Wilner 2002 - 50mg-PO-Tablet-Study I - Sildenafil - PO - 50 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 21,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nTablet SD 50mg fasted\n2023-03-24 17:37"
+        }
+      ]
     },
     {
       "Name": "IV 20mg",
@@ -6014,7 +6582,80 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 6.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.0,
+              "Max": 1000.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IV 20mg|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "FDA review, Study 148-203 - 20mg-IV-Infusion - Sildenafil - IV - 20 mg - Plasma - indiv.-Sildenafil-Peripheral Venous Blood-Plasma-Individual",
+              "X": "FDA review, Study 148-203 - 20mg-IV-Infusion - Sildenafil - IV - 20 mg - Plasma - indiv.|Time",
+              "Y": "FDA review, Study 148-203 - 20mg-IV-Infusion - Sildenafil - IV - 20 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|Individual",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nIV 20mg\n2023-03-24 17:35"
+        }
+      ]
     },
     {
       "Name": "IV 40mg",
@@ -6365,7 +7006,80 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 6.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 10.0,
+              "Max": 2000.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IV 40mg|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "FDA review, Study 148-203 - 40mg-IV-Infusion - Sildenafil - IV - 40 mg - Plasma - indiv.-Sildenafil-Peripheral Venous Blood-Plasma-Individual",
+              "X": "FDA review, Study 148-203 - 40mg-IV-Infusion - Sildenafil - IV - 40 mg - Plasma - indiv.|Time",
+              "Y": "FDA review, Study 148-203 - 40mg-IV-Infusion - Sildenafil - IV - 40 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|Individual",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nIV 40mg\n2023-03-24 17:36"
+        }
+      ]
     },
     {
       "Name": "IV 80mg",
@@ -6716,7 +7430,80 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 6.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 90.0,
+              "Max": 3000.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IV 80mg|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "FDA review, Study 148-203 - 80mg-IV-Infusion - Sildenafil - IV - 80 mg - Plasma - indiv.-Sildenafil-Peripheral Venous Blood-Plasma-Individual",
+              "X": "FDA review, Study 148-203 - 80mg-IV-Infusion - Sildenafil - IV - 80 mg - Plasma - indiv.|Time",
+              "Y": "FDA review, Study 148-203 - 80mg-IV-Infusion - Sildenafil - IV - 80 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|Individual",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nIV 80mg\n2023-03-24 17:36"
+        }
+      ]
     },
     {
       "Name": "Tablet MD 20mg fasted_Test",
@@ -7153,7 +7940,87 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Tablet MD 20mg fasted_Test|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 11
+              }
+            },
+            {
+              "Name": "Gotzkowsky 2013 - 20mg-PO-Tablet - Sildenafil - PO - 20 mg - Plasma - agg. (n=18)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Gotzkowsky 2013 - 20mg-PO-Tablet - Sildenafil - PO - 20 mg - Plasma - agg. (n=18)|Time",
+              "Y": "Gotzkowsky 2013 - 20mg-PO-Tablet - Sildenafil - PO - 20 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Sidharta 2014 - 20mg-PO-Tablet - Sildenafil - PO - 20 mg - Plasma - agg. (n=12)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Sidharta 2014 - 20mg-PO-Tablet - Sildenafil - PO - 20 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Sidharta 2014 - 20mg-PO-Tablet - Sildenafil - PO - 20 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 13,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nTablet MD 20mg fasted_Test\n2023-03-24 17:34"
+        }
+      ]
     },
     {
       "Name": "Tablet SD 50mg fasted_Test",
@@ -7528,7 +8395,111 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 24.31854,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Tablet SD 50mg fasted_Test|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 11
+              }
+            },
+            {
+              "Name": "Wilner 2002 - 50mg-PO-Tablet-Study II - Sildenafil - PO - 50 mg - Plasma - agg. (n=12)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Wilner 2002 - 50mg-PO-Tablet-Study II - Sildenafil - PO - 50 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Wilner 2002 - 50mg-PO-Tablet-Study II - Sildenafil - PO - 50 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 19,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hedaya 2006 - Clarythromycin DDI, control group - Sildenafil - PO - 50 mg - Plasma - agg. (n=12)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Hedaya 2006 - Clarythromycin DDI, control group - Sildenafil - PO - 50 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Hedaya 2006 - Clarythromycin DDI, control group - Sildenafil - PO - 50 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 18,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Gillen 2017 - Panel 2-50mg-PO-Tablet-Fast - Sildenafil - PO - 50 mg - Plasma - agg. (n=11)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Gillen 2017 - Panel 2-50mg-PO-Tablet-Fast - Sildenafil - PO - 50 mg - Plasma - agg. (n=11)|Time",
+              "Y": "Gillen 2017 - Panel 2-50mg-PO-Tablet-Fast - Sildenafil - PO - 50 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 20,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Al-Ghazawi 2010 - 50mg-PO-Tablet - Sildenafil - PO - 50 mg - Plasma - agg. (n=6)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Al-Ghazawi 2010 - 50mg-PO-Tablet - Sildenafil - PO - 50 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Al-Ghazawi 2010 - 50mg-PO-Tablet - Sildenafil - PO - 50 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 16,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nTablet SD 50mg fasted_Test\n2023-03-24 17:35"
+        }
+      ]
     },
     {
       "Name": "Tablet MD 20/80mg fasted_Test",
@@ -8071,7 +9042,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Tablet MD 20/80mg fasted_Test|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 11
+              }
+            },
+            {
+              "Name": "Burgess 2008 - MD 20mg, 80mg-PO-Tablet - Sildenafil - PO - 20, 80, 80, 0, 20, 80, 80 mg - Plasma - agg. (n=18)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Burgess 2008 - MD 20mg, 80mg-PO-Tablet - Sildenafil - PO - 20, 80, 80, 0, 20, 80, 80 mg - Plasma - agg. (n=18)|Time",
+              "Y": "Burgess 2008 - MD 20mg, 80mg-PO-Tablet - Sildenafil - PO - 20, 80, 80, 0, 20, 80, 80 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nTablet MD 20/80mg fasted_Test\n2023-03-24 17:34"
+        }
+      ]
     },
     {
       "Name": "Tablet SD 100mg fasted_Test",
@@ -8434,7 +9474,87 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Tablet SD 100mg fasted_Test|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 11
+              }
+            },
+            {
+              "Name": "Muirhead 2000 - 100mg-PO-Tablet-Study I - Sildenafil - PO - 100 mg - Plasma - agg. (n=27)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Muirhead 2000 - 100mg-PO-Tablet-Study I - Sildenafil - PO - 100 mg - Plasma - agg. (n=27)|Time",
+              "Y": "Muirhead 2000 - 100mg-PO-Tablet-Study I - Sildenafil - PO - 100 mg - Plasma - agg. (n=27)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Muirhead 2000 - 100mg-PO-Tablet-Study II - Sildenafil - PO - 100 mg - Plasma - agg. (n=28)-Sildenafil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Muirhead 2000 - 100mg-PO-Tablet-Study II - Sildenafil - PO - 100 mg - Plasma - agg. (n=28)|Time",
+              "Y": "Muirhead 2000 - 100mg-PO-Tablet-Study II - Sildenafil - PO - 100 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 13,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Sildenafil_Model_P calculated\nTablet SD 100mg fasted_Test\n2023-03-24 17:35"
+        }
+      ]
     }
   ],
   "ParameterIdentifications": [
@@ -8466,12 +9586,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -8491,7 +9611,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -8699,7 +9819,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-05,
+              "Value": 1e-05,
               "ValueOrigin": {}
             },
             {
@@ -8733,7 +9853,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-05,
+              "Value": 1e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -8979,7 +10099,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-05,
+              "Value": 1e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -9686,7 +10806,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 7.858E-09
+            "LLOQ": 7.858e-09
           },
           "Values": [
             6.6238947,
@@ -9838,7 +10958,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 1E-09
+            "LLOQ": 1e-09
           },
           "Values": [
             65.278336,
@@ -10588,7 +11708,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 1E-09
+            "LLOQ": 1e-09
           },
           "Values": [
             8.2779455,
@@ -10923,7 +12043,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 1E-09
+            "LLOQ": 1e-09
           },
           "Values": [
             74.42231,
@@ -11936,7 +13056,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 2.6E-09
+            "LLOQ": 2.6e-09
           },
           "Values": [
             0.008608121,
@@ -12535,7 +13655,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 1E-09
+            "LLOQ": 1e-09
           },
           "Values": [
             7.671721,
@@ -12695,7 +13815,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 3E-10
+            "LLOQ": 3e-10
           },
           "Values": [
             0.042870097,
@@ -12851,7 +13971,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 3E-10
+            "LLOQ": 3e-10
           },
           "Values": [
             218.90187,
@@ -13015,7 +14135,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 3E-10
+            "LLOQ": 3e-10
           },
           "Values": [
             7.623318,
@@ -13171,7 +14291,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 3E-10
+            "LLOQ": 3e-10
           },
           "Values": [
             0.050672647,
@@ -13323,7 +14443,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 2E-09
+            "LLOQ": 2e-09
           },
           "Values": [
             0.060563147,
@@ -13498,7 +14618,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 2E-09
+            "LLOQ": 2e-09
           },
           "Values": [
             12.253762,
@@ -13803,7 +14923,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 1E-09
+            "LLOQ": 1e-09
           },
           "Values": [
             41.517715,
@@ -13953,7 +15073,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 1E-09
+            "LLOQ": 1e-09
           },
           "Values": [
             3.2934132,
@@ -14134,7 +15254,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 1E-08
+            "LLOQ": 1e-08
           },
           "Values": [
             15.563638,
@@ -15755,7 +16875,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 5E-10
+            "LLOQ": 5e-10
           },
           "Values": [
             1.278409,
@@ -15907,7 +17027,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 474.58,
-            "LLOQ": 1E-09
+            "LLOQ": 1e-09
           },
           "Values": [
             26.277372,

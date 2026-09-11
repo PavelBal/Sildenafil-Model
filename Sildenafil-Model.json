@@ -1,6 +1,7 @@
 {
   "Name": "Sildenafil-Model",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -17250,6 +17251,5 @@
         "Tablet SD 100mg fasted_Test"
       ]
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }

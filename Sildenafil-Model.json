@@ -3197,12 +3197,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|IV 50mg SD|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 50.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
           "Unit": "cm/min",
@@ -3622,12 +3616,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|IV 25mg SD|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 25.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
@@ -4079,12 +4067,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 50mg SD|Sildenafil Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
           "Unit": "cm/min",
@@ -4504,12 +4486,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO 100mg SD|Sildenafil Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
@@ -4931,12 +4907,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 20mg SD|Sildenafil Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
           "Unit": "cm/min",
@@ -5357,12 +5327,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO 25mg SD|Sildenafil Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
@@ -5803,12 +5767,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO 50mg SD|Sildenafil Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
@@ -6294,12 +6252,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|IV 20mg SD|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 40.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
           "Unit": "cm/min",
@@ -6714,12 +6666,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|IV 40mg SD|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 40.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
@@ -7138,12 +7084,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|IV 80mg SD|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 40.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
@@ -7565,84 +7505,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO 20mg TID5|Sildenafil Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20mg TID5|Sildenafil Tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20mg TID5|Sildenafil Tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20mg TID5|Sildenafil Tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20mg TID5|Sildenafil Tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20mg TID5|Sildenafil Tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20mg TID5|Sildenafil Tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20mg TID5|Sildenafil Tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20mg TID5|Sildenafil Tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20mg TID5|Sildenafil Tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20mg TID5|Sildenafil Tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20mg TID5|Sildenafil Tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20mg TID5|Sildenafil Tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
@@ -8082,12 +7944,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO 50mg SD|Sildenafil Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
@@ -8559,198 +8415,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_19|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_20|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_21|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_22|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_23|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_24|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_25|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_26|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_27|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_28|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_29|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_30|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_31|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_32|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO 20-80-0-20-80mg|Sildenafil Tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
           "Unit": "cm/min",
@@ -9171,12 +8835,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO 100mg SD|Sildenafil Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
           "Value": 0.00060653773767,
